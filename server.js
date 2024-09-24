@@ -20,7 +20,7 @@ app.post('/send', async (req, res) => {
     
     try {
         // Call AI model server
-        const response = await fetch('http://localhost:1234/v1/chat/completions', {
+        const response = await fetch('http://192.168.29.2:1234/v1/chat/completions', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
