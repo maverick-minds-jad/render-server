@@ -5,7 +5,6 @@ import cors from 'cors';
 
 const app = express();
 const port = 3000;
-const cors = require('cors');
 
 app.use(cors({
     origin: 'http://www.medz.great-site.net/' // Replace with your InfinityFree domain
