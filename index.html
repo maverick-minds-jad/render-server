@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="chatContainer">
+        <h1>Llama Chat 3.1 8B</h1>
+        <div id="chatContent">
+            <!-- Chat messages will be appended here -->
+            <div id="responseContainer">
+                <div class="chatMessage response">Chat with Llama</div>
+            </div>
+        </div>
+        <form id="chatForm">
+            <textarea id="userInput" rows="4" placeholder="Enter your message..."></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
